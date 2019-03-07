@@ -37,10 +37,10 @@
 			<li><a href="notifications.html"> <i class="pe-7s-bell"></i>
 					<p>Notifications</p>
 			</a></li>
-			<li class="active-pro"><a href="upgrade.html"> <i
+<!-- 			<li class="active-pro"><a href="upgrade.html"> <i
 					class="pe-7s-rocket"></i>
 					<p>Upgrade to PRO</p>
-			</a></li>
+			</a></li> -->
 		</ul>
 	</div>
 </div>

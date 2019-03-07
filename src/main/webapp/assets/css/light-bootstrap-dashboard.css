@@ -2261,7 +2261,8 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .card .header {
-    padding: 15px 15px 0;
+    padding: 15px;
+    background-color: #f1f2f6;
 }
 
 .card .category,
@@ -2269,7 +2270,7 @@ fieldset[disabled] .btn-neutral.active {
     font-size: 14px;
     font-weight: 400;
     color: #9A9A9A;
-    margin-bottom: 0px;
+    margin-bottom: 0px;ti
 }
 
 .card .category i,
@@ -2287,6 +2288,7 @@ fieldset[disabled] .btn-neutral.active {
     margin: 0;
     color: #333333;
     font-weight: 300;
+    text-align: center;
 }
 
 .card .avatar {

@@ -30,6 +30,7 @@ public class KlinikSecurityConfig extends WebSecurityConfigurerAdapter {
                     .antMatchers("/").authenticated()
                     .antMatchers("/welcome/**").authenticated()
                     .antMatchers("/dashboard/**").authenticated()
+                    .antMatchers("/icons/**").authenticated()
                     .and()
                 .formLogin()
                     .loginPage("/login")

@@ -8,6 +8,8 @@ import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -30,6 +32,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class MstPelanggan {
 	@Id
     @Column(name="kd_pelanggan", length=5)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private String kodePelanggan;
     
     @Column(name="nama_pelanggan", length=20)

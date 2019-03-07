@@ -8,6 +8,8 @@ import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -32,6 +34,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Penjualan {
 	@Id
     @Column(name="no_faktur", length=10)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private String noFaktur;
 	
     @Column(name="nota_jual", length=10)

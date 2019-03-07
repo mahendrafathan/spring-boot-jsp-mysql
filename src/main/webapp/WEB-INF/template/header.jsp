@@ -1,4 +1,8 @@
 <!-- HEADER -->
+<form id="logoutForm" method="POST" action="${contextPath}/logout">
+	<input type="hidden" name="${_csrf.parameterName}"
+		value="${_csrf.token}" />
+</form>
 <nav class="navbar navbar-default navbar-fixed">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -37,9 +41,10 @@
 
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="">
-						<p>Account</p>
+						<p>${pageContext.request.userPrincipal.name}</p>
 				</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle"
+
+				<!-- 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown">
 						<p>
 							Dropdown <b class="caret"></b>
@@ -54,9 +59,9 @@
 						<li><a href="#">Something</a></li>
 						<li class="divider"></li>
 						<li><a href="#">Separated link</a></li>
-					</ul></li>
-				<li><a href="#">
-						<p>Log out</p>
+					</ul></li> -->
+				<li><a onclick="document.forms['logoutForm'].submit()">
+						<p>Log Out</p>
 				</a></li>
 				<li class="separator hidden-lg"></li>
 			</ul>
