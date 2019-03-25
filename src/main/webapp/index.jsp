@@ -80,8 +80,8 @@
                     <ul class="nav-menu">
                         <li class="menu-active"><a href="#body">Home</a></li>
                         <!--<li><a href="#about">About Us</a></li>-->
-                        <li><a href="#portfolio">Product</a></li>
-                        <li><a href="#services">Blog</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#blog">Blog</a></li>
                         <!--<li><a href="#team">Team</a></li>-->
                         <!--                        <li class="menu-has-children"><a href="">Drop Down</a>
                                                     <ul>
@@ -106,8 +106,8 @@
             <div class="intro-content">
                 <h2>Making <span>your ideas</span><br>happen!</h2>
                 <div>
-                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                    <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+                    <a href="#started" class="btn-get-started scrollto">Get Started</a>
+                    <a href="#product" class="btn-projects scrollto">Our Product</a>
                 </div>
             </div>
 
@@ -126,7 +126,7 @@
             <!--==========================
               About Section
             ============================-->
-            <section id="about1" class="wow fadeInUp">
+            <section id="started" class="wow fadeInUp">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 about-img">
@@ -174,12 +174,12 @@
                         </section> #clients -->
 
             <!--==========================
-              Our Portfolio Section
+              Our Product Section
             ============================-->
-            <section id="portfolio" class="wow fadeInUp">
+            <section id="product" class="wow fadeInUp">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Our Portfolio</h2>
+                        <h2>Our Product</h2>
                         <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                     </div>
                 </div>
@@ -188,88 +188,88 @@
                     <div class="row no-gutters">
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/1.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/1.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/1.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 1</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/2.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/2.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/2.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 2</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/3.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/3.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/3.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 3</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/4.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/4.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/4.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 4</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/5.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/5.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/5.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 5</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/6.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/6.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/6.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 6</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/7.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/7.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/7.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 7</h2></div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4">
-                            <div class="portfolio-item wow fadeInUp">
-                                <a href="resources/portal/img/portfolio/8.jpg" class="portfolio-popup">
+                            <div class="product-item wow fadeInUp">
+                                <a href="resources/portal/img/portfolio/8.jpg" class="product-popup">
                                     <img src="resources/portal/img/portfolio/8.jpg" alt="">
-                                    <div class="portfolio-overlay">
-                                        <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
+                                    <div class="product-overlay">
+                                        <div class="product-info"><h2 class="wow fadeInUp">Product Item 8</h2></div>
                                     </div>
                                 </a>
                             </div>
@@ -278,7 +278,7 @@
                     </div>
 
                 </div>
-            </section><!-- #portfolio -->
+            </section><!-- #product -->
 
             <!--==========================
               Testimonials Section
@@ -352,12 +352,12 @@
                         </section> #testimonials -->
 
             <!--==========================
-                Services Section
+                Blog Section
             ============================-->
-            <section id="services">
+            <section id="blog">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Services</h2>
+                        <h2>blog</h2>
                         <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                     </div>
 
@@ -398,7 +398,7 @@
                     </div>
 
                 </div>
-            </section><!-- #services -->
+            </section><!-- #blog -->
 
             <!--==========================
               Call To Action Section
@@ -498,10 +498,10 @@
             <!--==========================
               Contact Section
             ============================-->
-            <section id="contact1" class="wow fadeInUp">
+            <section id="about" class="wow fadeInUp">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Contact Us</h2>
+                        <h2>About Us</h2>
                         <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                     </div>
 
@@ -536,152 +536,19 @@
 
                 <div class="container mb-4">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-
-                <div class="container">
-                    <div class="form">
-                        <div id="sendmessage">Your message has been sent. Thank you!</div>
-                        <div id="errormessage"></div>
-                        <form action="" method="post" role="form" class="contactForm">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                    <div class="validation"></div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                <div class="validation"></div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
-                    </div>
-
-
-                    <div id="accordion" class="myaccordion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h2 class="mb-0">
-                                    <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        Undergraduate Studies
-                                        <span class="fa-stack fa-sm">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-plus fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Suspendisse molestie mauris turpis, vel imperdiet libero tempus et. Vivamus nec erat porta elit suscipit laoreet ut eu nulla. Phasellus sagittis magna eu nisi accumsan, at molestie tellus pharetra. Sed at nibh at sem tristique maximus id vel magna. Sed quis vulputate nulla. Mauris rhoncus dolor et placerat finibus. Phasellus venenatis turpis ac ornare viverra.</p>
-
-                                    <p>Donec porta turpis eget pharetra mattis. Nunc non finibus diam. Quisque enim erat, egestas id posuere quis, facilisis eget neque. Aenean ornare convallis neque eget pharetra. Suspendisse blandit pharetra elit, eget ultrices lorem porta auctor. Nullam malesuada lobortis massa, ac porttitor dui dapibus eget. Vestibulum tincidunt eros id ante consectetur, ut mollis enim posuere. Vivamus aliquet urna ante, et tempor risus facilisis in. Morbi sem tellus, dictum ultrices viverra ut, ornare gravida sapien.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                    <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Postgraduate Studies
-                                        <span class="fa-stack fa-2x">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-plus fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="form">
-                                    <div id="sendmessage">Your message has been sent. Thank you!</div>
-                                    <div id="errormessage"></div>
-                                    <form action="" method="post" role="form" class="contactForm">
-                                        <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                                <div class="validation"></div>
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                                <div class="validation"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                            <div class="validation"></div>
-                                        </div>
-                                        <div class="form-group">
-                                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                            <div class="validation"></div>
-                                        </div>
-                                        <div class="text-center"><button type="submit">Send Message</button></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
-                                    <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Research
-                                        <span class="fa-stack fa-2x">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-plus fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>ed varius nibh ut neque tincidunt, eu blandit libero hendrerit. Mauris eu diam eget risus vestibulum tincidunt. Integer volutpat, lorem a lobortis egestas, ligula nisl feugiat tortor, sed condimentum nulla ligula at justo. Praesent non est justo. Sed vitae rutrum est. In et risus id sem egestas iaculis nec vitae erat. Donec sed massa a lacus ultrices feugiat. Mauris scelerisque efficitur est, nec tincidunt neque interdum vitae. Donec convallis venenatis nisl eget ullamcorper. Mauris dapibus risus quis sapien varius, vel convallis justo mattis. Curabitur id condimentum turpis. Fusce vitae dui at nunc condimentum congue.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>        
             </section><!-- #contact -->
 
             <!--==========================
              Contact Section
            ============================-->
-            <section id="contact" class="wow fadeInUp">
-
+            <section id="contact" class="wow fadeInUp">               
                 <div class="container">
-                    <div class="form">
-                        <div id="sendmessage">Your message has been sent. Thank you!</div>
-                        <div id="errormessage"></div>
-                        <form action="" method="post" role="form" class="contactForm">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                    <div class="validation"></div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                    <div class="validation"></div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                <div class="validation"></div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
+                    <div class="section-header">
+                        <h2>Contact Us</h2>
+                        <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
                     </div>
-
-
+                    
                     <div id="accordion" class="myaccordion">
                         <div class="card">
                             <div class="card-header" id="headingOne">

@@ -533,27 +533,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Section
 --------------------------------*/
 
-#about {
+#started {
     padding: 60px 0 30px 0;
 }
 
-#about .about-img {
+#started .about-img {
     overflow: hidden;
 }
 
-#about .about-img img {
+#started .about-img img {
     margin-left: -15px;
     max-width: 100%;
 }
 
-#about .content h2 {
+#started .content h2 {
     color: #0c2e8a;
     font-weight: 700;
     font-size: 36px;
     font-family: "Raleway", sans-serif;
 }
 
-#about .content h3 {
+#started .content h3 {
     color: #555;
     font-weight: 300;
     font-size: 18px;
@@ -561,37 +561,37 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-style: italic;
 }
 
-#about .content p {
+#started .content p {
     line-height: 26px;
 }
 
-#about .content p:last-child {
+#started .content p:last-child {
     margin-bottom: 0;
 }
 
-#about .content i {
+#started .content i {
     font-size: 20px;
     padding-right: 4px;
     color: #50d8af;
 }
 
-#about .content ul {
+#started .content ul {
     list-style: none;
     padding: 0;
 }
 
-#about .content ul li {
+#started .content ul li {
     padding-bottom: 10px;
 }
 
-/* Services Section
+/* Blog Section
 --------------------------------*/
 
-#services {
+#blog {
     padding: 30px 0 0 0;
 }
 
-#services .box {
+#blog .box {
     padding: 40px;
     margin-bottom: 40px;
     box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
@@ -599,18 +599,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.4s;
 }
 
-#services .box:hover {
+#blog .box:hover {
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
 }
 
-#services .box .icon {
+#blog .box .icon {
     float: left;
 }
 
-#services .box .icon i {
+#blog .box .icon i {
     color: #444;
     font-size: 64px;
     transition: 0.5s;
@@ -618,7 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 34px;
 }
 
-#services .box .icon i:before {
+#blog .box .icon i:before {
     background: #0c2e8a;
     background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
     background-clip: border-box;
@@ -626,18 +626,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-text-fill-color: transparent;
 }
 
-#services .box h4 {
+#blog .box h4 {
     margin-left: 100px;
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 22px;
 }
 
-#services .box h4 a {
+#blog .box h4 a {
     color: #444;
 }
 
-#services .box p {
+#blog .box p {
     font-size: 14px;
     margin-left: 100px;
     margin-bottom: 0;
@@ -681,15 +681,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #50d8af;
 }
 
-/* Our Portfolio Section
+/* Our Product Section
 --------------------------------*/
 
-#portfolio {
+#product {
     background: #fff;
     padding: 30px 0;
 }
 
-#portfolio .portfolio-overlay {
+#product .product-overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -701,7 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all ease-in-out 0.4s;
 }
 
-#portfolio .portfolio-item {
+#product .product-item {
     overflow: hidden;
     position: relative;
     padding: 0;
@@ -709,7 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
 }
 
-#portfolio .portfolio-item h2 {
+#product .product-item h2 {
     color: #ffffff;
     font-size: 24px;
     margin: 0;
@@ -717,22 +717,22 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 700;
 }
 
-#portfolio .portfolio-item img {
+#product .product-item img {
     transition: all ease-in-out 0.4s;
     width: 100%;
 }
 
-#portfolio .portfolio-item:hover img {
+#product .product-item:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-#portfolio .portfolio-item:hover .portfolio-overlay {
+#product .product-item:hover .product-overlay {
     opacity: 1;
     background: rgba(0, 0, 0, 0.7);
 }
 
-#portfolio .portfolio-info {
+#product .product-info {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -907,32 +907,32 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 2px;
 }
 
-/* Contact Section
+/* About Section
 --------------------------------*/
 
-#contact {
+#about {
     padding: 30px 0;
 }
 
-#contact .contact-info {
+#about .contact-info {
     margin-bottom: 20px;
     text-align: center;
 }
 
-#contact .contact-info i {
+#about .contact-info i {
     font-size: 48px;
     display: inline-block;
     margin-bottom: 10px;
     color: #50d8af;
 }
 
-#contact .contact-info address,
-#contact .contact-info p {
+#about .contact-info address,
+#about .contact-info p {
     margin-bottom: 0;
     color: #000;
 }
 
-#contact .contact-info h3 {
+#about .contact-info h3 {
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -940,24 +940,83 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #999;
 }
 
-#contact .contact-info a {
+#about .contact-info a {
     color: #000;
 }
 
-#contact .contact-info a:hover {
+#about .contact-info a:hover {
     color: #50d8af;
 }
 
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
+#about .contact-address,
+#about .contact-phone,
+#about .contact-email {
     margin-bottom: 20px;
 }
 
-#contact #google-map {
+#about #google-map {
     height: 290px;
     margin-bottom: 20px;
 }
+
+#about .form #sendmessage {
+    color: #50d8af;
+    border: 1px solid #50d8af;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#about .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#about .form #sendmessage.show,
+#about .form #errormessage.show,
+#about .form .show {
+    display: block;
+}
+
+#about .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#about .form input,
+#about .form textarea {
+    padding: 10px 14px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 15px;
+}
+
+#about .form button[type="submit"] {
+    background: #50d8af;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#about .form button[type="submit"]:hover {
+    background: #2dc899;
+}
+
+/* Contact Section
+--------------------------------*/
 
 #contact .form #sendmessage {
     color: #50d8af;
@@ -1077,13 +1136,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
-    #contact .contact-address,
-    #contact .contact-phone,
-    #contact .contact-email {
+    #about .contact-address,
+    #about .contact-phone,
+    #about .contact-email {
         padding: 20px 0;
     }
 
-    #contact .contact-phone {
+    #about .contact-phone {
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
     }
@@ -1117,7 +1176,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #header #logo h1 {
-        font-size: 34px;
+        font-size: 25px;
     }
 
     #header #logo img {
@@ -1132,11 +1191,11 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: inline;
     }
 
-    #about .about-img {
+    #started .about-img {
         height: auto;
     }
 
-    #about .about-img img {
+    #started .about-img img {
         margin-left: 0;
         padding-bottom: 30px;
     }
@@ -1147,18 +1206,18 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 34px;
     }
 
-    #services .box .box {
+    #blog .box .box {
         margin-bottom: 20px;
     }
 
-    #services .box .icon {
+    #blog .box .icon {
         float: none;
         text-align: center;
         padding-bottom: 15px;
     }
 
-    #services .box h4,
-    #services .box p {
+    #blog .box h4,
+    #blog .box p {
         margin-left: 0;
         text-align: center;
     }
@@ -1169,7 +1228,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 576px) {
-    #contact #google-map {
+    #about #google-map {
         margin-top: 20px;
     }
 }
